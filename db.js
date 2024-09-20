@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const mongoURI =
-  "mongodb://localhost:27017/inotebook?&directConnection=true&tls=false&readPreference=primary";
+  "mongodb+srv://savan:savan@cluster0.t4pim.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 //promises or async await
 const connectToMongo = () => {
